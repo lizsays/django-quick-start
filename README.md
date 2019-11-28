@@ -19,7 +19,7 @@
    
 | Key 	| Value |
 |:--:	|:-:	|
-| DATABASE_URL | 從21云数据库中可以粘贴过來 |
+| DATABASE_URL | 从你创建的21云数据库中复制粘贴过來 |
 | DJANGO_ALLOWED_HOSTS | `xxx.21yunbox.com`, `xxx` 是你的项目域名 |
 | DJANGO_SECRET_KEY | 在terminal生成一组随机字符: `echo $(base64 /dev/urandom \| tr -dc 'A-HJ-NP-Za-km-z2-9' \| head -c32)/` |
 | DJANGO_SETTINGS_MODULE | `config.settings.production` |
